@@ -1,0 +1,277 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    height: 100px;
+    font-family: sans-serif;
+    background-color: #5DADE2;
+}
+
+.cabeceraCentral{
+    display: flex;
+    width: 80%;
+}
+
+.section{
+    padding-top: 30px;;
+}
+
+#tituloPrincipal{
+    font-size: 40px;
+    margin:center;
+    margin-top: 30px;
+}
+
+.logo{
+    padding: 5px;
+    width: 17%;
+}
+
+#mad img{
+    width: 70px;
+}
+
+#md img{
+    width: 150px;
+    padding: 5px;
+    padding-top: 10px;
+}
+
+#ssc img{
+    width: 200px;
+    padding: 12px;
+}
+
+
+
+#section{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.listas{
+    float: left;
+    width: 300px;
+    height: 320px;
+    border: 2px solid #1F618D;
+    padding: 3px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 8px;
+
+}
+
+.titulo{
+    font-size: 20px;
+    text-align: center;
+}
+
+#btnInsertar1, #btnQuitar1, #btnInsertar2, #btnQuitar2, #btnInsertar3, #btnQuitar3, #btnDisponible, #btnNoDisponible{
+    font-size: 12px;
+    padding: 0px;
+    width: 40%;
+    height: 30px;
+}
+
+.listaInt{
+    height: 70%;
+}
+
+
+.tablas{
+    border: 1px solid gray;
+    width: 90%;
+}
+
+#ext1{
+    float: left;
+    width: 40%;
+    text-align: center;
+    padding: 10px;
+    overflow: hidden;
+}
+
+
+#ext2{
+    width: 50%;
+    padding: 1px;
+    display: flex;
+    float: left;
+}
+
+#tablaP{
+    margin: 0px auto;
+    padding: 0px;
+    font-size: 14px;
+    width: 95%;
+    height: auto;
+}
+
+#tablaGen{
+    margin: 0px auto;
+    padding: 0px;
+    font-size: 14px;
+    width: 95%;
+    height: auto;
+}
+
+
+#tablaGen th{
+    border: 2px solid #1F618D;
+}
+
+.tr{
+    border: 2px solid #1F618D;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+table tr td{
+    border: 2px solid #1F618D;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+table .tr:hover{
+    text-decoration: underline;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+table .tr:current{
+    background-color: #5DADE2;
+}
+
+
+
+.listaFinal{
+    margin: 0px auto;
+    width: 420px;
+    height: 380px;
+    border: 2px solid blue;
+    text-align: center;
+    border-radius: 8px;
+}
+
+#ext3{
+    margin: 0px auto;
+    display: flex;
+}
+
+#ext3 table tr th{
+    border: 1px solid black;
+
+}
+
+#tablaFinal{
+    width: 100%;
+
+}
+
+#btnsListaFin{
+    text-align: center;
+    padding-top: 10px;
+}
+
+#consola{
+    margin: 0px auto;
+    text-align: center;
+    padding: 10px;
+    padding-top: 40px;
+    border: 5px solid green;
+    width: 70%;
+    border-radius: 10px;
+    height: 380px;
+}
+
+#section2{
+    display: block;
+}
+
+#salida{
+    display: flex;
+    margin: 0px auto;
+    text-align: center;
+    height: 200px;
+    width: 80%;
+    border-radius: 10px;
+    background-color: #d0ffe2;
+    box-shadow: 0px 5px 5px 0px green;
+    
+}
+
+#lista4{
+    margin: 0px auto;
+}
+
+#btnsConsola{
+    margin: 0px auto;
+    padding: 30px;
+}
+
+/* .salidas{
+    display: flex;
+    margin: 0px auto;
+    display: inline;
+} */
+
+#salidaPrev{
+    justify-content: center;
+    margin: 0px auto;
+    width: 320px;
+   
+}
+
+#salidaSig{
+    margin: 0px auto;
+    width: 320px;
+}
+
+
+#prevenido{
+    margin-top: 20%;
+    font-family: Tahoma;
+    font-weight: bold;
+    background-color: rgb(211, 212, 211);
+    color: rgb(47, 48, 47);
+    width: 100%;
+    height: 60px;
+    box-shadow: 0px 4px 4px 0px rgb(70, 71, 70);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#prevenido label{
+   justify-content: center;
+   margin-top: 12px;
+    
+}
+
+#siguiente{
+    font-size: 25px;
+    margin-top: 14%;
+    font-family: Tahoma;
+    font-weight: bold;
+    background-color: chartreuse;
+    color: rgb(3, 68, 3);
+    width: 100%;
+    height: 100px;
+    box-shadow: 0px 4px 4px 0px green;
+    border-radius: 20px;
+}
+
+#siguiente label{
+    margin-top: 30px;
+
+}
+
+.labels{
+    font-family:'Times New Roman', Times, serif;
+    padding-top: 20px;
+    font-weight: bold;
+}
