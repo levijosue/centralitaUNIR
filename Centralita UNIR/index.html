@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centralita UNIR</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Centralita UNIR</title>
+    
+</head>
+
+<body>
+
+    <!-- Inicio de Cabecera -->
+    <header>
+        <div class="logo" id="mad">
+            <img src="img/LogoMadrid.png">
+        </div>
+        <div class="cabeceraCentral">
+            <div class="logo" id="md">
+                <img src="img/MadridDigital.png">
+            </div>
+
+            <h1 id="tituloPrincipal">Rotación de Técnicos de UNIR - ICM</h1>
+
+            <div class="logo" id="ssc">
+                <img src="img/SSC.jpg">
+            </div>
+        </div>
+
+    </header>
+    <!-- Fin de cabecera -->
+
+    <!-- Inicio de cuerpo -->
+
+    <section id="section">
+        <div id="ext1">
+
+
+            <h2 class="titulo" id="tituloGen">Listado de Técnicos</h2>
+            <table id="tablaP">
+                <!-- Listado general de técnicos -->
+                <thead>
+                    <tr>
+                        <th>NOMBRE</th>
+                        <th>APELLIDO</th>
+                        <th>LOGIN</th>
+                        <th>TLF CORTO</th>
+                        <th>TLF LARGO</th>
+                        <th>EMAIL</th>
+                    </tr>
+                </thead>
+                <tbody id="tablaGen">
+
+                </tbody>
+                
+            </table>
+
+        </div>
+
+        <div id="ext2">
+
+            <div class="listas" id="lista1">
+
+                <h2 class="titulo">Turno de 8:00 a 16:00 </h2>
+                <div class="listaInt">
+                    <table class="tablas" id="tabla1">
+                        <thead>
+                            <tr>
+
+                                <th>Técnico</th>
+                                <th>Teléfono</th>
+                            </tr>
+
+                        </thead>
+                        <tbody>
+                            <!-- Contenido Tabla 1 -->
+                        </tbody>
+                    </table>
+                </div>
+                <div class="botones">
+                    <button id="btnInsertar1" class="btn btn-primary">Añadir Técnico</button>
+                    <button id="btnQuitar1" disabled="disabled" class="btn btn-danger">Borrar Técnico</button>
+                </div>
+
+
+            </div>
+
+            <div class="listas" id="lista2">
+                <h2 class="titulo">Turno de 9:00 a 17:00 </h2>
+                <div class="listaInt">
+                    <table class="tablas" id="tabla2">
+                        <thead>
+                            <tr>
+
+                                <th>Técnico</th>
+                                <th>Teléfono</th>
+                            </tr>
+
+                        </thead>
+                        <tbody>
+                            <!-- Contenido Tabla 2 -->
+                        </tbody>
+                    </table>
+                </div>
+                <div class="botones">
+                    <button id="btnInsertar2" class="btn btn-primary">Añadir Técnico</button>
+                    <button id="btnQuitar2" disabled="disabled" class="btn btn-danger">Borrar Técnico</button>
+                </div>
+            </div>
+            <div class="listas" id="lista3">
+                <h2 class="titulo">Turno de 14:30 a 21:30 </h2>
+                <div class="listaInt">
+                    <table class="tablas" id="tabla3">
+                        <thead>
+                            <tr>
+
+                                <th>Técnico</th>
+                                <th>Teléfono</th>
+                            </tr>
+
+                        </thead>
+                        <tbody>
+                            <!-- Contenido Tabla 3 -->
+                        </tbody>
+                    </table>
+                </div>
+                <div class="botones">
+                    <button id="btnInsertar3" class="btn btn-primary">Añadir Técnico</button>
+                    <button id="btnQuitar3" disabled="disabled" class="btn btn-danger">Borrar Técnico</button>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <section id="section2">
+        <div id="ext3">
+
+            <div id="lista4">
+
+                <div class="listaFinal">
+                    <h2 class="titulo" id="tituloFinal">Orden de Rotación</h2>
+                    <table id="tablaFinal">
+                        <tr>
+                            <th>NOMBRE</th>
+                            <th>APELLIDO</th>
+                        </tr>
+                        <tr>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="botones" id="btnsListaFin">
+                    <button id="btnDisponible" disabled="disabled" class="btn btn-primary">Disponible</button>
+                    <button id="btnNoDisponible" disabled="disabled" class="btn btn-danger">No Disponible</button>
+                </div>
+
+            </div>
+
+
+            <div id="consola">
+                <div id="salida">
+                    <div id="salidaPrev" class="salidas">
+                        <div id="prevenido">
+                            <label>Técnico Prev</label>
+                        </div>
+                        <label class="labels">PREVENIDO</label>
+
+                    </div>
+
+                    <div id="salidaSig" class="salidas">
+                        <div id="siguiente">
+                            <label>Técnico Sig</label>
+                        </div>
+                        <!-- <div id="flecha"></div> -->
+                        <label class="labels">SIGUIENTE</label>
+                    </div>
+
+                </div>
+                <div id="btnsConsola">
+
+                    <button type="button" class="btn btn-danger" id="rechazada">Llamada rechazada</button>
+                    <button type="button" class="btn btn-success" id="aceptada">Llamada aceptada</button>
+
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    <footer>
+        <div id="footer"></div>
+    </footer>
+
+    <script src="/script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+
+    
+
+</body>
+
+</html>
